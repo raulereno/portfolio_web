@@ -1,0 +1,27 @@
+#container_about{
+    margin: 2rem 0 1rem 3rem;
+    h2{
+        margin-bottom: 1rem;
+        margin-left: 1.9rem;
+        border-bottom: 3px solid rgb(0, 0, 94);
+        padding-bottom: 0.5rem;
+        width: 90%;
+        font-size: 1.6rem;
+    }
+    img{
+        width: 20rem;
+    }
+    .info_about{
+        display: flex;
+    
+        div{
+            align-self: center;
+            display: flex;
+            flex-direction: column;
+            p{
+                width: 80%;
+            }
+                  
+        }
+    }
+}

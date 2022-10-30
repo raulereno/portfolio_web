@@ -1,0 +1,25 @@
+.navBar{
+    height: 15rem;
+    ul{
+        display: flex;
+        flex-direction: column;
+    
+        li{
+            list-style: none;
+            margin: 0.8rem 0;
+            display: flex;
+            align-content: center;
+            margin-left: 5rem;
+            svg{
+                width: 1.5rem;
+                fill: wheat;
+                margin-right: 0.7rem;
+            }
+            a{
+                text-decoration: none;
+                color: wheat;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
