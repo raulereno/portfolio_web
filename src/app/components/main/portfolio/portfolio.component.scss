@@ -28,7 +28,7 @@
             }
             img{
                 width: 100%;
-                height: 88.5%;
+                height: 89%;
                 &:hover{
                     opacity: 0.5;
                     cursor: pointer;
@@ -48,8 +48,9 @@
                 transition: all 1s;
                 div{
                 
-                    p{
+                    a{
                         color: white;
+                        text-decoration: none;
                     }
                     svg{
                         width: 2rem;

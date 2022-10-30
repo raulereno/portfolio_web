@@ -10,14 +10,18 @@
             display: flex;
             align-content: center;
             margin-left: 5rem;
+            transition: all 0.3s;
+            &:hover{
+                transform: scale(1.1);
+            }
             svg{
                 width: 1.5rem;
-                fill: wheat;
+                fill: white;
                 margin-right: 0.7rem;
             }
             a{
                 text-decoration: none;
-                color: wheat;
+                color: white;
                 font-size: 1.5rem;
             }
         }
