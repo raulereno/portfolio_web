@@ -1,21 +1,24 @@
 #container_resume{
     background-color: #adb1b81b;
+    margin: 2rem 0 1rem 3rem;
+    padding-bottom: 4rem;
     height: 30rem;
     h2{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         width: 90%;
-        margin-left: 4rem;
+        margin-left: 1.9rem;
         margin-bottom: 0.5rem;
         border-bottom: 3px solid rgb(0, 0, 94);
         padding: 0.5rem 0;
         padding-top: 1rem;
     }
     p{
-        margin-left: 4rem;
+        font-size: 1.2rem;
+        margin-left: 1.9rem;
         margin-bottom: 0.5rem;
     }
     .resume{
-        margin-left: 4rem;
+        margin-left: 1.9rem;
         display: flex;
         margin-top: 1rem;
         p{
@@ -26,8 +29,10 @@
             margin-bottom: 0.5rem;
         }
         .education{
-            width: 45%;
-           
+            width: 60%;
+            h4{
+                font-size: 1.3rem;
+            }
             ul{
                 list-style: none;
                 li{
@@ -40,6 +45,9 @@
         }
         .work_experience{
             margin-left: 1rem;
+            h4{
+                font-size: 1.3rem;
+            }
             ul{
                 li{
                     // .circle_list{
