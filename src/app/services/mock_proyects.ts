@@ -19,12 +19,12 @@ export const PROYECTS: Proyects[] = [
   },
   {
     id: 2,
-    name: 'En progreso',
-    link: '',
-    image:"./../../../../assets/capturasProyectos/trabajo-en-proceso1.jpg",
+    name: 'Not Fungible Token Ecommerce',
+    link: 'https://nft-ecommerce-react.netlify.app/',
+    image:"./../../../../assets/capturasProyectos/pf-react-coder.png",
     description:
-      '',
-    tecnologies: '',
+      'Proyecto final del curso de React en CoderHouse donde utilice React como tecnologia del frontend y firebase como base de datos para consultar',
+    tecnologies: 'Javascript,React y Firebase',
   },
   {
     id: 3,
