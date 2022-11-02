@@ -35,4 +35,13 @@ export const PROYECTS: Proyects[] = [
       '',
     tecnologies: '',
   },
+  {
+    id: 4,
+    name: 'En progreso',
+    link: '',
+    image:"./../../../../assets/capturasProyectos/trabajo-en-proceso1.jpg",
+    description:
+      '',
+    tecnologies: '',
+  },
 ];
