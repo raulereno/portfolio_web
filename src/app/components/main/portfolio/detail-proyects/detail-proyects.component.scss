@@ -1,0 +1,58 @@
+.container_detail{
+    margin-left: 3%;
+    display:flex;
+    flex-direction: column;
+    background-color: #adb1b81b;
+    width: 97%;
+
+    button{
+        width: 5rem;
+        margin: 1rem;
+        background-color: #040b14;
+        padding: 0.5rem;
+        color: white;
+        font-size: 1rem;
+        border-radius: 5px;
+        &:hover{
+            transform: scale(1.05);
+            background-color: #040b1470;
+            color: black;
+            cursor: pointer;
+        }
+    }
+    img{
+        align-self: center;
+        width: 80%;
+        height: 70%;
+    }
+    h2{
+        margin-top: 1rem;
+        font-size: 2rem;
+        align-self: center;
+        text-align: center;
+        border-bottom: 3px solid rgb(0, 0, 94);
+        width:90% ;
+    }
+    .description{
+        margin-left: 2rem;
+        margin: 1rem;
+        width: 95%;
+        text-align: center;
+    }
+    a{
+        align-self: center;
+    }
+
+    h3{
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        align-self: center;
+        border-bottom: 3px solid rgb(0, 0, 94);
+        text-align: center;
+        width: 70%;
+    }
+    .tecnologies{
+        text-align: center;
+        margin-top: 1rem;
+    }
+}

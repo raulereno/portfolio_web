@@ -1,0 +1,10 @@
+<div *ngIf="proyect" class="container_detail">
+    <button (click)="goBack()">Back</button>
+    <img src={{proyect.image}} alt="" srcset="">
+    <h2 >{{proyect.name}}</h2>
+    <p class="description">{{proyect.description}}</p>
+    <a href="https://pi-dogs-henry.netlify.app/" target="_blank" rel="noopener noreferrer">Enlace a la pagina</a>
+    <h3>Tecnologias usadas para este proyecto:</h3>
+    <p class="tecnologies">{{proyect.tecnologies}}</p>
+</div>
+
